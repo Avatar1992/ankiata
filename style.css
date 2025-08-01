@@ -1,0 +1,15 @@
+body { font-family: sans-serif; margin: 0; padding: 0; }
+header, footer { background: #00cc0a; color: rgb(72, 13, 199); padding: 20px; text-align: center; }
+nav a { color: white; margin: 0 10px; text-decoration: none; }
+.hero { background: url('img/hero.jpg') center/cover no-repeat; padding: 100px 20px; color: white; text-align: center; }
+.hero h1 { font-size: 3em; margin-bottom: 10px; }
+.hero p { font-size: 1.2em; }
+.hero a { background: white; color: #cc5200; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 20px; }
+.features, .faq { padding: 40px 20px; }
+.features h2, .faq h2 { text-align: center; margin-bottom: 20px; }
+.feature-list { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; }
+.feature { flex: 1 1 200px; background: #f7f7f7; padding: 20px; border-radius: 8px; }
+.faq-item { margin-bottom: 20px; }
+.contact { padding: 40px 20px; text-align: center; }
+.contact a { color: #cc5200; text-decoration: none; }
+.contact p { font-size: 1.2em; }
